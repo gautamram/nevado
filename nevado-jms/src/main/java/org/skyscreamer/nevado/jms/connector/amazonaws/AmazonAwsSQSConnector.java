@@ -4,6 +4,8 @@ import com.amazonaws.AmazonClientException;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.Protocol;
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.sns.AmazonSNS;
 import com.amazonaws.services.sns.AmazonSNSAsync;
 import com.amazonaws.services.sns.AmazonSNSAsyncClient;
@@ -11,14 +13,16 @@ import com.amazonaws.services.sns.AmazonSNSClient;
 import com.amazonaws.services.sns.model.*;
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClient;
+import com.amazonaws.services.sqs.AmazonSQSClient;
 import com.amazonaws.services.sqs.model.CreateQueueRequest;
 import com.amazonaws.services.sqs.model.CreateQueueResult;
 import com.amazonaws.services.sqs.model.ListQueuesRequest;
 import com.amazonaws.services.sqs.model.ListQueuesResult;
+import com.amazonaws.util.StringUtils;
 import org.skyscreamer.nevado.jms.connector.AbstractSQSConnector;
 import org.skyscreamer.nevado.jms.connector.SQSMessage;
 import org.skyscreamer.nevado.jms.connector.SQSQueue;
-import org.skyscreamer.nevado.jms.connector.oneviewcommerce.OVCAmazonSQSClient;
+import org.skyscreamer.nevado.jms.connector.oneviewcommerce.ClientFactory;
 import org.skyscreamer.nevado.jms.destination.NevadoDestination;
 import org.skyscreamer.nevado.jms.destination.NevadoQueue;
 import org.skyscreamer.nevado.jms.destination.NevadoTopic;
@@ -34,6 +38,8 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Connector for SQS-only implementation of the Nevado JMS driver.
@@ -47,11 +53,59 @@ public class AmazonAwsSQSConnector extends AbstractSQSConnector {
     private final AmazonSNS _amazonSNS;
 
     public AmazonAwsSQSConnector(String awsAccessKey, String awsSecretKey, boolean isSecure, long receiveCheckIntervalMs) {
-        this(awsAccessKey, awsSecretKey, isSecure, receiveCheckIntervalMs, false);
+        this(awsAccessKey, awsSecretKey, isSecure, receiveCheckIntervalMs, false, null);
     }
 
-    public AmazonAwsSQSConnector(String awsAccessKey, String awsSecretKey, boolean isSecure, long receiveCheckIntervalMs, boolean isAsync) {
+    public AmazonAwsSQSConnector(String awsAccessKey, String awsSecretKey, boolean isSecure, long receiveCheckIntervalMs, boolean isAsync, ClientFactory clientFactory) {
         super(receiveCheckIntervalMs, isAsync);
+        AWSCredentials awsCredentials = null;
+        if (!StringUtils.isNullOrEmpty(awsAccessKey) && !StringUtils.isNullOrEmpty(awsSecretKey)) {
+            awsCredentials = new BasicAWSCredentials(awsAccessKey, awsSecretKey);
+        }
+        ClientConfiguration clientConfiguration = getClientConfiguration(isSecure);
+        if (isAsync) {
+            ExecutorService executorService = Executors.newSingleThreadExecutor();
+            _amazonSQS = getAmazonSQSAsyncClient(awsCredentials, clientConfiguration, executorService, clientFactory);
+            _amazonSNS = getAmazonSNSAsyncClient(awsCredentials, clientConfiguration, executorService, clientFactory);
+        } else {
+            _amazonSQS = getAmazonSQSClient(awsCredentials, clientConfiguration, clientFactory);
+            _amazonSNS = getAmazonSNSClient(awsCredentials, clientConfiguration, clientFactory);
+        }
+    }
+
+    private AmazonSNS getAmazonSNSClient(AWSCredentials awsCredentials, ClientConfiguration clientConfiguration, ClientFactory clientFactory) {
+        if (clientFactory != null) {
+            return clientFactory.getSNSClient(awsCredentials, clientConfiguration);
+        } else {
+            return new AmazonSNSClient(awsCredentials, clientConfiguration);
+        }
+    }
+
+    private AmazonSQS getAmazonSQSClient(AWSCredentials awsCredentials, ClientConfiguration clientConfiguration, ClientFactory clientFactory) {
+        if (clientFactory != null) {
+            return clientFactory.getSQSClient(awsCredentials, clientConfiguration);
+        } else {
+            return new AmazonSQSClient(awsCredentials, clientConfiguration);
+        }
+    }
+
+    private AmazonSNS getAmazonSNSAsyncClient(AWSCredentials awsCredentials, ClientConfiguration clientConfiguration, ExecutorService executorService, ClientFactory clientFactory) {
+	    if (clientFactory != null) {
+		    return clientFactory.getAsyncSNSClient(awsCredentials, clientConfiguration, executorService);
+	    } else {
+		    return new AmazonSNSAsyncClient(awsCredentials, clientConfiguration, executorService);
+	    }
+    }
+
+    private AmazonSQS getAmazonSQSAsyncClient(AWSCredentials awsCredentials, ClientConfiguration clientConfiguration, ExecutorService executorService, ClientFactory clientFactory) {
+	    if (clientFactory != null) {
+		    return clientFactory.getAsyncSQSClient(awsCredentials, clientConfiguration, executorService);
+	    } else {
+		    return new AmazonSQSAsyncClient(awsCredentials, clientConfiguration, executorService);
+	    }
+    }
+
+    protected ClientConfiguration getClientConfiguration(boolean isSecure) {
         ClientConfiguration clientConfiguration = new ClientConfiguration();
         String proxyHost = System.getProperty("http.proxyHost");
         String proxyPort = System.getProperty("http.proxyPort");
@@ -60,15 +114,9 @@ public class AmazonAwsSQSConnector extends AbstractSQSConnector {
             if(proxyPort != null){
               clientConfiguration.setProxyPort(Integer.parseInt(proxyPort));
             }
-        }  
-        clientConfiguration.setProtocol(isSecure ? Protocol.HTTPS : Protocol.HTTP);
-        if (isAsync) {
-            _amazonSQS = new AmazonSQSAsyncClient(clientConfiguration);
-            _amazonSNS = new AmazonSNSAsyncClient(clientConfiguration);
-        } else {
-            _amazonSQS = new OVCAmazonSQSClient(clientConfiguration);
-            _amazonSNS = new AmazonSNSClient(clientConfiguration);
         }
+        clientConfiguration.setProtocol(isSecure ? Protocol.HTTPS : Protocol.HTTP);
+        return clientConfiguration;
     }
 
     @Override

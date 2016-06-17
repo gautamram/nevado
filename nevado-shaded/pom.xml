@@ -41,7 +41,9 @@
                             <excludes>
                                 <exclude>META-INF/*.SF</exclude>
                                 <exclude>META-INF/*.DSA</exclude>
-                                <exclude>META-INF/*.RSA</exclude>amazonaws/services/sqs/request.handle
+                                <exclude>META-INF/*.RSA</exclude>
+                                <exclude>com/amazonaws/services/sqs/request.handler*</exclude>
+                                <exclude>com/amazonaws/services/sns/request.handler*</exclude>
                             </excludes>
                         </filter>
                     </filters>

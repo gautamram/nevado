@@ -10,7 +10,7 @@ import org.skyscreamer.nevado.jms.connector.AbstractSQSConnectorFactory;
  */
 public class AmazonAwsSQSConnectorFactory extends AbstractSQSConnectorFactory {
     protected boolean _useAsyncSend = false;
-    
+
     @Override
     public AmazonAwsSQSConnector getInstance(String awsAccessKey, String awsSecretKey, String awsSQSEndpoint, String awsSNSEndpoint) {
         AmazonAwsSQSConnector amazonAwsSQSConnector = createConnector(awsAccessKey, awsSecretKey);
@@ -24,13 +24,13 @@ public class AmazonAwsSQSConnectorFactory extends AbstractSQSConnectorFactory {
     }
 
     protected AmazonAwsSQSConnector createConnector(String awsAccessKey, String awsSecretKey) {
-        return new AmazonAwsSQSConnector(awsAccessKey, awsSecretKey, _isSecure, _receiveCheckIntervalMs, _useAsyncSend);
+        return new AmazonAwsSQSConnector(awsAccessKey, awsSecretKey, _isSecure, _receiveCheckIntervalMs, _useAsyncSend, null);
     }
 
     public void setUseAsyncSend(boolean useAsyncSend) {
         _useAsyncSend = useAsyncSend;
     }
-    
+
     public boolean isUseAsyncSend() {
         return _useAsyncSend;
     }

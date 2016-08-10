@@ -1,3 +1,0 @@
-com.oneviewcommerce.shade.nevado.com.amazonaws.services.sqs.QueueUrlHandler
-com.oneviewcommerce.shade.nevado.com.amazonaws.services.sqs.internal.SQSRequestHandler
-com.oneviewcommerce.shade.nevado.com.amazonaws.services.sqs.MessageMD5ChecksumHandler

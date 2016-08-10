@@ -1,7 +1,5 @@
 package org.skyscreamer.nevado.jms.connector;
 
-import com.caucho.hessian.io.HessianProtocolException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.json.JSONException;
@@ -294,14 +292,7 @@ public abstract class AbstractSQSConnector implements SQSConnector {
     protected NevadoMessage deserializeMessage(String serializedMessage) throws JMSException {
         Serializable deserializedObject;
         try {
-	        try {
-		        deserializedObject = SerializeUtil.deserializeFromString(serializedMessage);
-	        } catch (HessianProtocolException e) {
-		        ObjectMapper mapper = new ObjectMapper();
-		        Map<?,?> map = mapper.readValue(serializedMessage, Map.class);
-		        serializedMessage = (String) map.get("Message");
-		        deserializedObject = SerializeUtil.deserializeFromString(serializedMessage);
-	        }
+            deserializedObject = SerializeUtil.deserializeFromString(serializedMessage);
         } catch (IOException e) {
             String exMessage = "Unable to deserialized message: " + e.getMessage();
             _log.error(exMessage, e);

@@ -27,7 +27,7 @@ public class AmazonAwsSQSConnectorFactory extends AbstractSQSConnectorFactory {
     }
 
     protected AmazonAwsSQSConnector createConnector(String awsAccessKey, String awsSecretKey) {
-        return new AmazonAwsSQSConnector(awsAccessKey, awsSecretKey, _isSecure, _receiveCheckIntervalMs, _useAsyncSend);
+        return new AmazonAwsSQSConnector(awsAccessKey, awsSecretKey, _isSecure, _receiveCheckIntervalMs, _useAsyncSend, null);
     }
 
     public void setUseAsyncSend(boolean useAsyncSend) {

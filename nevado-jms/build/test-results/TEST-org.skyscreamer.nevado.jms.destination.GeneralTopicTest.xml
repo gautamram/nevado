@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.destination.GeneralTopicTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:24:56" hostname="ted-Lemur-Ultra" time="0.032">
+  <properties/>
+  <testcase name="testTopicFacilities" classname="org.skyscreamer.nevado.jms.destination.GeneralTopicTest" time="0.031"/>
+  <testcase name="testCommonAndPubSubAreSameImplementation" classname="org.skyscreamer.nevado.jms.destination.GeneralTopicTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:24:56,857 INFO  org.skyscreamer.nevado.jms.NevadoTopicConnection - Created temporary topic nevado_temp_2fp61fsk2cxym
+2016-11-06 08:24:56,859 INFO  org.skyscreamer.nevado.jms.NevadoTopicConnection - Created temporary queue nevado_temp_1fhuftkjtp2t1
+2016-11-06 08:24:56,863 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message f6744880-a309-4ce2-98eb-cc1c49529635
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

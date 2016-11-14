@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.message.ReceivedMessageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:24" hostname="ted-Lemur-Ultra" time="0.008">
+  <properties/>
+  <testcase name="testInitialState" classname="org.skyscreamer.nevado.jms.message.ReceivedMessageTest" time="0.006"/>
+  <testcase name="testClearBodyDoesNotClearProperties" classname="org.skyscreamer.nevado.jms.message.ReceivedMessageTest" time="0.002"/>
+  <system-out><![CDATA[2016-11-06 08:25:24,906 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_38jfszfyf8aqc_tempQueue
+2016-11-06 08:25:24,907 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS b1b3a856-3d0d-42a1-8711-6db0b5a2d8c2
+2016-11-06 08:25:24,907 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message b1b3a856-3d0d-42a1-8711-6db0b5a2d8c2
+2016-11-06 08:25:24,908 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1kdhuyifnaczs_tempQueue
+2016-11-06 08:25:24,909 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 9dc4c533-9d84-403d-b5f8-b23cedd2da88
+2016-11-06 08:25:24,909 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 9dc4c533-9d84-403d-b5f8-b23cedd2da88
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

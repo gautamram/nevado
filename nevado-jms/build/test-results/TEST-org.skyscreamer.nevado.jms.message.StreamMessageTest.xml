@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.message.StreamMessageTest" tests="73" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:25" hostname="ted-Lemur-Ultra" time="0.05">
+  <properties/>
+  <testcase name="dyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.003"/>
+  <testcase name="zyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="bhFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="chFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ihFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="lhFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="fhFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="dhFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="zhFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="bcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="ycFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="hcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="icFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="lcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="fcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="dcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="scFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="zcFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="biFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ciFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="liFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="fiFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="diFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.003"/>
+  <testcase name="yzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="hzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="czFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="izFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="lzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="fzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="dzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="szFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="testMessageNotReadableException" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="testMessageEOF" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.002"/>
+  <testcase name="ziFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="blFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="clFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="dlFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="flFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="zlFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="bfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="yfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="hfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="cfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="ifFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="lfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="dfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="zfFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="bdFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ydFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="hdFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="cdFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="idFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ldFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="zdFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="zsFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="bzFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="testAlienStreamMessage" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.004"/>
+  <testcase name="sbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="cbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ibFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="byFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="syFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="cyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="iyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="lyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="fyFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="ybFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="dbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="zbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="lbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.0"/>
+  <testcase name="fbFail" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="testStreamMessage" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <testcase name="testMessageNotWritableException" classname="org.skyscreamer.nevado.jms.message.StreamMessageTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:25:25,092 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_2wsagnvv9valk_tempQueue
+2016-11-06 08:25:25,092 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS c64bb52a-49c4-4533-91ac-c41399af1c93
+2016-11-06 08:25:25,092 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message c64bb52a-49c4-4533-91ac-c41399af1c93
+2016-11-06 08:25:25,108 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1jdj8flgnu17y_tempQueue
+2016-11-06 08:25:25,108 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS e1510f45-c736-400e-9c7d-0cf686421b4d
+2016-11-06 08:25:25,108 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message e1510f45-c736-400e-9c7d-0cf686421b4d
+2016-11-06 08:25:25,115 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_229r46xd2z1rk_tempQueue
+2016-11-06 08:25:25,115 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 27ae1313-301c-4e00-876e-48fdd0e081a6
+2016-11-06 08:25:25,116 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 27ae1313-301c-4e00-876e-48fdd0e081a6
+2016-11-06 08:25:25,117 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_18gtw0faf3sg1_tempQueue
+2016-11-06 08:25:25,117 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 039d3a75-9788-4e03-8732-d5726c7a9986
+2016-11-06 08:25:25,117 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 039d3a75-9788-4e03-8732-d5726c7a9986
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

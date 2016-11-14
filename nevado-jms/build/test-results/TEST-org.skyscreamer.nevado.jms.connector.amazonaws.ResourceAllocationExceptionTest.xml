@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.connector.amazonaws.ResourceAllocationExceptionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:25" hostname="ted-Lemur-Ultra" time="0.003">
+  <properties/>
+  <testcase name="testSQSResourceAllocationException" classname="org.skyscreamer.nevado.jms.connector.amazonaws.ResourceAllocationExceptionTest" time="0.003"/>
+  <testcase name="testSNSResourceAllocationException" classname="org.skyscreamer.nevado.jms.connector.amazonaws.ResourceAllocationExceptionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

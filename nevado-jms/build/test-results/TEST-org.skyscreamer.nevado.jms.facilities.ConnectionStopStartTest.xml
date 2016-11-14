@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.facilities.ConnectionStopStartTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:15" hostname="ted-Lemur-Ultra" time="1.731">
+  <properties/>
+  <testcase name="testClientStart" classname="org.skyscreamer.nevado.jms.facilities.ConnectionStopStartTest" time="0.607"/>
+  <testcase name="testAsyncClientPause" classname="org.skyscreamer.nevado.jms.facilities.ConnectionStopStartTest" time="0.311"/>
+  <testcase name="testClientPause" classname="org.skyscreamer.nevado.jms.facilities.ConnectionStopStartTest" time="0.606"/>
+  <testcase name="testAsyncClientStart" classname="org.skyscreamer.nevado.jms.facilities.ConnectionStopStartTest" time="0.205"/>
+  <system-out><![CDATA[2016-11-06 08:25:15,373 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_3k3ph2ue8u2x1_tempQueue
+2016-11-06 08:25:15,374 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 1957ba6b-2736-4a44-b0fa-1ab3d35ae600
+2016-11-06 08:25:15,974 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 1957ba6b-2736-4a44-b0fa-1ab3d35ae600
+2016-11-06 08:25:15,979 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_8520ul1l01cs_tempQueue
+2016-11-06 08:25:15,981 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 471dad76-082e-41b3-b03b-f2b6a116c831
+2016-11-06 08:25:15,981 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 6fc52e86-094e-4a9f-95a1-7c06cc809f12
+2016-11-06 08:25:16,031 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 471dad76-082e-41b3-b03b-f2b6a116c831
+2016-11-06 08:25:16,082 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 6fc52e86-094e-4a9f-95a1-7c06cc809f12
+2016-11-06 08:25:16,085 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS d3462acd-5e42-40b1-8265-a12826c6784d
+2016-11-06 08:25:16,285 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message d3462acd-5e42-40b1-8265-a12826c6784d
+2016-11-06 08:25:16,289 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1936cr1x1rskd_tempQueue
+2016-11-06 08:25:16,290 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 07a54cca-3876-4622-aef7-79589e8c9633
+2016-11-06 08:25:16,291 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 72d182e1-5b4c-4120-a4bc-37e4ca25e3ba
+2016-11-06 08:25:16,291 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 07a54cca-3876-4622-aef7-79589e8c9633
+2016-11-06 08:25:16,893 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 72d182e1-5b4c-4120-a4bc-37e4ca25e3ba
+2016-11-06 08:25:16,896 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_2kh9pvuqdow1m_tempQueue
+2016-11-06 08:25:16,896 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 2dfa5b08-786c-4727-87fa-5dbcb627f61f
+2016-11-06 08:25:17,098 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 2dfa5b08-786c-4727-87fa-5dbcb627f61f
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.message.ObjectMessageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:24" hostname="ted-Lemur-Ultra" time="0.02">
+  <properties/>
+  <testcase name="testObjectMessage2" classname="org.skyscreamer.nevado.jms.message.ObjectMessageTest" time="0.008"/>
+  <testcase name="testBadObjectMessage" classname="org.skyscreamer.nevado.jms.message.ObjectMessageTest" time="0.002"/>
+  <testcase name="testAlienObjectMessage" classname="org.skyscreamer.nevado.jms.message.ObjectMessageTest" time="0.008"/>
+  <testcase name="testObjectMessage" classname="org.skyscreamer.nevado.jms.message.ObjectMessageTest" time="0.002"/>
+  <system-out><![CDATA[2016-11-06 08:25:24,886 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_2euja23cdloch_tempQueue
+2016-11-06 08:25:24,887 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 9452821b-335a-4417-959a-f11417aa095e
+2016-11-06 08:25:24,887 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 9452821b-335a-4417-959a-f11417aa095e
+2016-11-06 08:25:24,890 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_346d6hih562g7_tempQueue
+2016-11-06 08:25:24,890 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS a4e12223-c46c-4cbb-a673-712dd7cefa94
+2016-11-06 08:25:24,890 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message a4e12223-c46c-4cbb-a673-712dd7cefa94
+2016-11-06 08:25:24,898 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_2opslnvyxx6er_tempQueue
+2016-11-06 08:25:24,898 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 264dad6b-5b53-4966-8138-82f7ad3de88c
+2016-11-06 08:25:24,898 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 264dad6b-5b53-4966-8138-82f7ad3de88c
+2016-11-06 08:25:24,900 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_ls6krnafd12h_tempQueue
+2016-11-06 08:25:24,900 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 473ff301-ea45-422a-a36b-c95474dcfdda
+2016-11-06 08:25:24,900 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 473ff301-ea45-422a-a36b-c95474dcfdda
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

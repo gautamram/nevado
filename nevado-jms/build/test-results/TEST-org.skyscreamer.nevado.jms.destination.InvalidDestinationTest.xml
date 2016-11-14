@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.destination.InvalidDestinationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:24:56" hostname="ted-Lemur-Ultra" time="0.059">
+  <properties/>
+  <testcase name="testDeletedDestination" classname="org.skyscreamer.nevado.jms.destination.InvalidDestinationTest" time="0.059"/>
+  <system-out><![CDATA[2016-11-06 08:24:56,798 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_3dr3ok6r9w0t6_tempQueue
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

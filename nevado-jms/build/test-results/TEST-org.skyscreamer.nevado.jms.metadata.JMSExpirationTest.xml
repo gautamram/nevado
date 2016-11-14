@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.metadata.JMSExpirationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:27" hostname="ted-Lemur-Ultra" time="0.018">
+  <properties/>
+  <testcase name="testExpire" classname="org.skyscreamer.nevado.jms.metadata.JMSExpirationTest" time="0.015"/>
+  <testcase name="testSetExpiration" classname="org.skyscreamer.nevado.jms.metadata.JMSExpirationTest" time="0.002"/>
+  <testcase name="testControl" classname="org.skyscreamer.nevado.jms.metadata.JMSExpirationTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:25:27,809 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_4qo787ukpx4f_tempQueue
+2016-11-06 08:25:27,809 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 3a933fad-bbb0-42e3-aa51-abb23d2b8aad
+2016-11-06 08:25:27,809 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 1598e978-b05a-4ab9-8af2-e6235196d8d7
+2016-11-06 08:25:27,819 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 3a933fad-bbb0-42e3-aa51-abb23d2b8aad
+2016-11-06 08:25:27,820 INFO  org.skyscreamer.nevado.jms.NevadoSession - Skipped expired message (ID:3a933fad-bbb0-42e3-aa51-abb23d2b8aad)
+2016-11-06 08:25:27,820 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 1598e978-b05a-4ab9-8af2-e6235196d8d7
+2016-11-06 08:25:27,821 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_3h0uhkbfolotg_tempQueue
+2016-11-06 08:25:27,821 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS d8168544-8347-4ef7-b21e-8d727ff9c472
+2016-11-06 08:25:27,821 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message d8168544-8347-4ef7-b21e-8d727ff9c472
+2016-11-06 08:25:27,822 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_3mazdn43y7hfd_tempQueue
+2016-11-06 08:25:27,823 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 2be3c365-6231-4c52-8447-7bfbc165eb69
+2016-11-06 08:25:27,823 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 2be3c365-6231-4c52-8447-7bfbc165eb69
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

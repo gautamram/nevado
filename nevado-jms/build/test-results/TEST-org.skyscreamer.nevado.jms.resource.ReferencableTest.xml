@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.resource.ReferencableTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:27" hostname="ted-Lemur-Ultra" time="0.034">
+  <properties/>
+  <testcase name="testQueue" classname="org.skyscreamer.nevado.jms.resource.ReferencableTest" time="0.023"/>
+  <testcase name="testConnectionFactory" classname="org.skyscreamer.nevado.jms.resource.ReferencableTest" time="0.003"/>
+  <testcase name="testTemporaryQueue" classname="org.skyscreamer.nevado.jms.resource.ReferencableTest" time="0.003"/>
+  <testcase name="testTemporaryTopic" classname="org.skyscreamer.nevado.jms.resource.ReferencableTest" time="0.003"/>
+  <testcase name="testTopic" classname="org.skyscreamer.nevado.jms.resource.ReferencableTest" time="0.002"/>
+  <system-out><![CDATA[2016-11-06 08:25:27,779 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_3bskkilafv7gv_tempQueue
+2016-11-06 08:25:27,783 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary topic nevado_temp_kc6kwj5aoptq_tempTopic
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

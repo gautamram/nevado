@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.facilities.ConnectionFactoryEndpointTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:20" hostname="ted-Lemur-Ultra" time="0.012">
+  <properties/>
+  <testcase name="testChangedEndpoints" classname="org.skyscreamer.nevado.jms.facilities.ConnectionFactoryEndpointTest" time="0.01"/>
+  <testcase name="testBadSQSEndpoint" classname="org.skyscreamer.nevado.jms.facilities.ConnectionFactoryEndpointTest" time="0.001"/>
+  <testcase name="testBadSNSEndpoint" classname="org.skyscreamer.nevado.jms.facilities.ConnectionFactoryEndpointTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:25:20,388 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1ppi30qpvb7ne
+2016-11-06 08:25:20,390 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 59af7aea-6ad7-47de-a40a-fe2c2f8107df
+2016-11-06 08:25:20,390 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 59af7aea-6ad7-47de-a40a-fe2c2f8107df
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

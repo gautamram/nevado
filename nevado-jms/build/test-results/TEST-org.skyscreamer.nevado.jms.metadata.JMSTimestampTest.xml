@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.metadata.JMSTimestampTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:27" hostname="ted-Lemur-Ultra" time="0.005">
+  <properties/>
+  <testcase name="testAssign" classname="org.skyscreamer.nevado.jms.metadata.JMSTimestampTest" time="0.004"/>
+  <testcase name="testDisable" classname="org.skyscreamer.nevado.jms.metadata.JMSTimestampTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:25:27,834 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1nheah0edcn9t_tempQueue
+2016-11-06 08:25:27,834 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 3d9fed55-12ff-4050-877f-6ae3f166414b
+2016-11-06 08:25:27,834 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 3d9fed55-12ff-4050-877f-6ae3f166414b
+2016-11-06 08:25:27,835 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_gc92c5qe4pv8_tempQueue
+2016-11-06 08:25:27,835 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS cabf5459-6481-4935-94dd-1ffba46b5889
+2016-11-06 08:25:27,835 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message cabf5459-6481-4935-94dd-1ffba46b5889
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

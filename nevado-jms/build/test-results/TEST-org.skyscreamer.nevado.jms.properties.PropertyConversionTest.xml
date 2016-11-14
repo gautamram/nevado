@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" tests="49" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:27" hostname="ted-Lemur-Ultra" time="0.052">
+  <properties/>
+  <testcase name="dyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.004"/>
+  <testcase name="zyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="bhFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="chFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="ihFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="lhFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="fhFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="dhFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="zhFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.005"/>
+  <testcase name="biFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="ciFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.002"/>
+  <testcase name="liFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="fiFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="diFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="testSupportedConversions" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.003"/>
+  <testcase name="ziFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="blFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="clFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="dlFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="flFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="zlFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="bfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="yfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="hfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="cfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="ifFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="lfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="dfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="zfFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="bdFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="ydFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="hdFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="cdFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="idFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="ldFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="sbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="cbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="ibFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.003"/>
+  <testcase name="byFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.004"/>
+  <testcase name="syFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="cyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="iyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="lyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="fyFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="ybFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="dbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="zbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <testcase name="lbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.0"/>
+  <testcase name="fbFail" classname="org.skyscreamer.nevado.jms.properties.PropertyConversionTest" time="0.001"/>
+  <system-out><![CDATA[2016-11-06 08:25:27,900 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1kzam9qr8buqs_tempQueue
+2016-11-06 08:25:27,901 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS cec4f477-d7e3-45b7-bf6d-c29e05306295
+2016-11-06 08:25:27,901 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message cec4f477-d7e3-45b7-bf6d-c29e05306295
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

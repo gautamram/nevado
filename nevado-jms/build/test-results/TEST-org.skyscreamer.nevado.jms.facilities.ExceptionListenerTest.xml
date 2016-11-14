@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.facilities.ExceptionListenerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:20" hostname="ted-Lemur-Ultra" time="0.307">
+  <properties/>
+  <testcase name="testExceptionListener" classname="org.skyscreamer.nevado.jms.facilities.ExceptionListenerTest" time="0.307"/>
+  <system-out><![CDATA[2016-11-06 08:25:20,401 INFO  org.skyscreamer.nevado.jms.NevadoConnection - Created temporary queue nevado_temp_1qgre1zyqieh2_tempQueue
+2016-11-06 08:25:20,401 INFO  org.skyscreamer.nevado.jms.facilities.ExceptionListenerTest - Give the async runner 300ms to run
+2016-11-06 08:25:20,451 ERROR org.skyscreamer.nevado.jms.AsyncConsumerRunner - Unable to process message for consumer on nevado_temp_1qgre1zyqieh2_tempQueue
+javax.jms.JMSException: SESSION DELIBERATELY THROWING EXCEPTION - EXPECTED BEHAVIOR - FOR TESTING MODE ONLY
+	at org.skyscreamer.nevado.jms.NevadoSession.testBreak(NevadoSession.java:618)
+	at org.skyscreamer.nevado.jms.NevadoSession.receiveMessage(NevadoSession.java:422)
+	at org.skyscreamer.nevado.jms.NevadoMessageConsumer.processAsyncMessage(NevadoMessageConsumer.java:133)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.processMessage(AsyncConsumerRunner.java:77)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.run(AsyncConsumerRunner.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-06 08:25:20,527 ERROR org.skyscreamer.nevado.jms.AsyncConsumerRunner - Unable to process message for consumer on nevado_temp_1qgre1zyqieh2_tempQueue
+javax.jms.JMSException: SESSION DELIBERATELY THROWING EXCEPTION - EXPECTED BEHAVIOR - FOR TESTING MODE ONLY
+	at org.skyscreamer.nevado.jms.NevadoSession.testBreak(NevadoSession.java:618)
+	at org.skyscreamer.nevado.jms.NevadoSession.receiveMessage(NevadoSession.java:422)
+	at org.skyscreamer.nevado.jms.NevadoMessageConsumer.processAsyncMessage(NevadoMessageConsumer.java:133)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.processMessage(AsyncConsumerRunner.java:77)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.run(AsyncConsumerRunner.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-06 08:25:20,641 ERROR org.skyscreamer.nevado.jms.AsyncConsumerRunner - Unable to process message for consumer on nevado_temp_1qgre1zyqieh2_tempQueue
+javax.jms.JMSException: SESSION DELIBERATELY THROWING EXCEPTION - EXPECTED BEHAVIOR - FOR TESTING MODE ONLY
+	at org.skyscreamer.nevado.jms.NevadoSession.testBreak(NevadoSession.java:618)
+	at org.skyscreamer.nevado.jms.NevadoSession.receiveMessage(NevadoSession.java:422)
+	at org.skyscreamer.nevado.jms.NevadoMessageConsumer.processAsyncMessage(NevadoMessageConsumer.java:133)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.processMessage(AsyncConsumerRunner.java:77)
+	at org.skyscreamer.nevado.jms.AsyncConsumerRunner.run(AsyncConsumerRunner.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

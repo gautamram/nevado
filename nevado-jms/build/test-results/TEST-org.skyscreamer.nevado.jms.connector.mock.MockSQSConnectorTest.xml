@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.skyscreamer.nevado.jms.connector.mock.MockSQSConnectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:25" hostname="ted-Lemur-Ultra" time="0.402">
+  <properties/>
+  <testcase name="testMockSQSConnectorWillReturnMessagesWhenNotReset" classname="org.skyscreamer.nevado.jms.connector.mock.MockSQSConnectorTest" time="0.001"/>
+  <testcase name="testMockSQSConnectorWillBeEmptyWhenReset" classname="org.skyscreamer.nevado.jms.connector.mock.MockSQSConnectorTest" time="0.401"/>
+  <system-out><![CDATA[2016-11-06 08:25:25,122 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 624d6dbe-12fa-49bb-a4e3-415a501c7107
+2016-11-06 08:25:25,122 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 624d6dbe-12fa-49bb-a4e3-415a501c7107
+2016-11-06 08:25:25,123 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Received message 8784010a-e3b9-4d7e-a4ad-e1e84a055078
+2016-11-06 08:25:25,123 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS 1c2f61ea-90f9-4730-84d9-c4e8843db703
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

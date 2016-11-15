@@ -3,6 +3,7 @@ import com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper
 import com.amazonaws.auth.EnvironmentVariableCredentialsProvider
 import com.amazonaws.auth.SystemPropertiesCredentialsProvider
 import com.amazonaws.auth.profile.ProfileCredentialsProvider
+import org.ajoberstar.grgit.Grgit
 
 group 'com.oneviewcommerce'
 

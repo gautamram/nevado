@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.skyscreamer.nevado.jms.connector.mock.MockSQSQueueTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:25" hostname="ted-Lemur-Ultra" time="0.001">
-  <properties/>
-  <testcase name="testQueueCanBeReset" classname="org.skyscreamer.nevado.jms.connector.mock.MockSQSQueueTest" time="0.0"/>
-  <testcase name="testQueueWorksAsExpectedForNonResetQueue" classname="org.skyscreamer.nevado.jms.connector.mock.MockSQSQueueTest" time="0.0"/>
-  <testcase name="testQueueResetDoesNotThrowExceptionIfQueueIsDeleted" classname="org.skyscreamer.nevado.jms.connector.mock.MockSQSQueueTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

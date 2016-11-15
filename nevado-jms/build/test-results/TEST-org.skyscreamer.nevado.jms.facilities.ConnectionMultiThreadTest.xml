@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.skyscreamer.nevado.jms.facilities.ConnectionMultiThreadTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:24:57" hostname="ted-Lemur-Ultra" time="17.591">
-  <properties/>
-  <testcase name="testStopStartALot" classname="org.skyscreamer.nevado.jms.facilities.ConnectionMultiThreadTest" time="17.591"/>
-  <system-out><![CDATA[2016-11-06 08:24:57,781 INFO  org.skyscreamer.nevado.jms.facilities.ConnectionMultiThreadTest - Created 10 sessions
-2016-11-06 08:24:57,799 INFO  org.skyscreamer.nevado.jms.facilities.ConnectionMultiThreadTest - Started 100 threads
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

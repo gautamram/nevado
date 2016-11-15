@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.skyscreamer.nevado.jms.connector.mock.ConnectionFactoryResetTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:25:25" hostname="ted-Lemur-Ultra" time="2.002">
-  <properties/>
-  <testcase name="testResetWillEmptyQueue" classname="org.skyscreamer.nevado.jms.connector.mock.ConnectionFactoryResetTest" time="2.002"/>
-  <system-out><![CDATA[2016-11-06 08:25:25,733 INFO  org.skyscreamer.nevado.jms.connector.mock.MockSQSConnector - Sent message to SQS f6198e09-ad84-4902-a6bc-d0667b5481aa
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

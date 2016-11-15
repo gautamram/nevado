@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.skyscreamer.nevado.jms.facilities.ConnectionMetaDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-06T13:24:57" hostname="ted-Lemur-Ultra" time="0.006">
-  <properties/>
-  <testcase name="testMetaData" classname="org.skyscreamer.nevado.jms.facilities.ConnectionMetaDataTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
